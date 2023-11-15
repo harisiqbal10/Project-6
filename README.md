@@ -38,3 +38,17 @@ python privacy_preserving_decision_tree.py
 `d`: Maximum depth of the decision tree.
 
 Other parameters are hardcoded for the breast cancer dataset.
+
+### B. Alternative Inputs
+
+To run the code with alternative inputs:
+
+**Dataset**: Replace the dataset URL in the code with the URL of your preferred classification dataset.
+
+**Attributes**: Modify the `attributes` list to include the attributes of your dataset.
+
+### Discussion on Parameters
+
+The main parameters that impact the privacy, accuracy, and efficiency of the program are `epsilon`, which controls the privacy level, and `d`, which controls the maximum depth of the decision tree. Increasing `epsilon` generally improves accuracy but reduces privacy, as it allows more noise in the Laplace mechanism. On the other hand, increasing `d` may improve accuracy but could lead to overfitting and increased computation time.
+
+It's essential to maintain a balance between privacy and accuracy based on the specific requirements of your use case. Additionally, consider the dataset's characteristics and adjust parameters accordingly. Monitoring the accuracy-privacy trade-off is crucial for making informed decisions about parameter tuning.
