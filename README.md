@@ -11,12 +11,13 @@ Python 3.x
 ### A. How to Run the Code
 
 1. **Clone this Repository:**
-   ```bash
-    git clone https://github.com/harisiqbal10/Project-6.git
-    cd Project-6
-    ```
 
-2. **Install Dependencies:**
+```bash
+git clone https://github.com/harisiqbal10/Project-6.git
+cd Project-6
+```
+
+3. **Install Dependencies:**
 
 Required Python libraries (You can install them using `pip install <library_name>`):
 
