@@ -11,11 +11,10 @@ Python 3.x
 ### A. How to Run the Code
 
 1. **Clone this Repository:**
-
-```bash
-git clone https://github.com/harisiqbal10/Project-6.git
-cd Project-6
-```
+   ```bash
+    git clone https://github.com/harisiqbal10/Project-6.git
+    cd Project-6
+    ```
 
 2. **Install Dependencies:**
 
@@ -34,5 +33,7 @@ python privacy_preserving_decision_tree.py
 4. **Parameters:**
 
 `epsilon`: Privacy parameter. Adjust based on privacy requirements.
+
 `d`: Maximum depth of the decision tree.
+
 Other parameters are hardcoded for the breast cancer dataset.
