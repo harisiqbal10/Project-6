@@ -1,6 +1,6 @@
 ## Project-6: Privacy-Preserving Machine Learning
 
-This README provides instructions on how to run the Privacy-Preserving Machine Learning code. 
+In this project, our focus is on implementing the Differentially Private ID3 algorithm. This algorithm utilizes a 𝜀-DP (Differentially Private) setting to create a decision tree training algorithm. The primary objective is to train the model on a given dataset, allowing it to make predictions based on learned patterns. This README provides instructions on how to run the Privacy-Preserving Machine Learning code. 
 
 ### Prerequisites
 
@@ -47,7 +47,9 @@ To run the code with alternative inputs:
 
 **Attributes**: Modify the `attributes` list to include the attributes of your dataset.
 
-### Discussion on Parameters
+In the write-up below, we analyze our program parameters, exploring their implications for privacy, accuracy, and efficiency.
+
+### Program Parameters and their implications for privacy, accuracy, and efficiency
 
 The main parameters that impact the privacy, accuracy, and efficiency of the program are `epsilon`, which controls the privacy level, and `d`, which controls the maximum depth of the decision tree. Increasing `epsilon` generally improves accuracy but reduces privacy, as it allows more noise in the Laplace mechanism. On the other hand, increasing `d` may improve accuracy but could lead to overfitting and increased computation time.
 
