@@ -17,7 +17,7 @@ git clone https://github.com/harisiqbal10/Project-6.git
 cd Project-6
 ```
 
-3. **Install Dependencies:**
+2. **Install Dependencies:**
 
 Required Python libraries (You can install them using `pip install <library_name>`):
 
