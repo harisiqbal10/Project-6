@@ -28,7 +28,7 @@ Required Python libraries (You can install them using `pip install <library_name
 3. **Run the Code:**
 
 ```bash
-python Project-6.py
+python privacy_preserving_ml.py
 ```
 
 4. **Parameters:**
