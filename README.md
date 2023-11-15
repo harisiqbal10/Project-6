@@ -37,7 +37,6 @@ python privacy_preserving_ml.py
 
 `d`: Maximum depth of the decision tree.
 
-Other parameters are hardcoded for the breast cancer dataset.
 
 ### B. Alternative Inputs
 
@@ -46,6 +45,14 @@ To run the code with alternative inputs:
 **Dataset**: Replace the dataset URL in the code with the URL of your preferred classification dataset.
 
 **Attributes**: Modify the `attributes` list to include the attributes of your dataset.
+
+**Columns**: Modify the `columns` list to include the columns of your dataset in order. 
+
+**Epsilon**: Set your preffered epsilon value.
+
+**d**: Set your desired max depth of the descison tree. 
+
+All of the above inputs are in the main function. 
 
 In the write-up below, we analyze our program parameters, exploring their implications for privacy, accuracy, and efficiency.
 
